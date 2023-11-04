@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6b6d71;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: #000000;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 400px;
+}
+
+footer {
+    background-color: #000000;
+    color: #e9eeec;
+    text-align: center;
+    padding: 10px;
+}
